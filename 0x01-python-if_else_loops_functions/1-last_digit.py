@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-if x >= 0:
+if number >= 0:
     x = number % 10
 else:
     x = number % -10
