@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import sys
-    s = 0
-    for i in range(len(sy.argv) - 1):
-        s += int(sys.argv[i++])
-    print(s)
+    import hidden_4
+    for i in dir(hidden_4):
+        if i[:2] != "__":
+            print(i)
