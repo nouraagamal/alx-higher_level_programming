@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-'''class rectangle area&perimeter'''
+'''class rectangle +area&parameter +stringrepresentationwith#'''
 
 
 class Rectangle:
@@ -47,3 +47,10 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
             return 0
         return (self.__height * 2) + (self.__width * 2)
+
+    def __str__(self):
+        if self.__width == 0 or self.__height == 0:
+            return ''
+        else:
+            hashes = '#' * self.__width
+            return '\n'.join(hashes for h in range(self.__height))
