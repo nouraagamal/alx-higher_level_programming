@@ -2,6 +2,7 @@
 
 '''empty class'''
 
+
 class Rectangle:
     '''commnt'''
     pass
