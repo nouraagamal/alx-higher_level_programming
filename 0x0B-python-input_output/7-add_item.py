@@ -9,9 +9,9 @@ load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 arglist = list(sys.argv[1:])
 
 try:
-    olddata = load_from_json_file('add_item.json')
+    old_data = load_from_json_file('add_item.json')
 except Exception:
-    olddata = []
+    old_data = []
 
-olddata.extend(arglist)
-save_to_json_file(olddata, 'add_item.json')
+old_data.extend(arglist)
+save_to_json_file(old_data, 'add_item.json')
