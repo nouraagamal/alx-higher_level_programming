@@ -8,7 +8,7 @@ function factorial (n) {
   return (n * factorial(n - 1));
 }
 
-if (isNaN(process.argv[2])){
+if (isNaN(process.argv[2])) {
 	console.log('1');
 } else {
 	console.log(factorial(Number(process.argv[2])));
