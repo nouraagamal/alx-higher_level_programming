@@ -5,7 +5,7 @@ from the database
 """
 
 import MySQLdb
-from sys import argv
+import sys
 
 if __name__ == '__main__':
     db = MySQLdb.connect(
