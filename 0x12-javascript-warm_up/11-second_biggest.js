@@ -8,6 +8,6 @@ if (process.argv.length <= 3) {
   for (let i = 2; i < process.argv.length; i++) {
     args[i - 2] = process.argv[i];
   }
-  args.sort(function (a, b) { return b - a; });
+  args.sort();
   console.log(args[1]);
 }
